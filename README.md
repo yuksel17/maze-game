@@ -13,6 +13,6 @@ Python 3 ve Pygame yüklü olmalıdır.
 ```bash
 git clone https://github.com/yuksel17/maze-game.git
 cd maze-game
-python3 main.py
+python3 src/main.py
 ```
 
