@@ -1,18 +1,28 @@
-# 🧙‍♀️ Cadth Ajani: The Quest for the Transformation Elixir
+# 🧙‍♀️ Autonomous Witch Agent: Comparative Search Algorithms in Pygame
 
-Bu proje, bir cadının **procedurally generated** (rastgele üretilmiş) bir labirentte 3 iksiri toplayıp çıkışa ulaştığı bir AI simülasyonudur.
+This project is an AI simulation where a witch must navigate through a procedurally generated maze, collect 3 magical elixirs, and reach the exit.
 
-## 🚀 Özellikler
-- **Akıllı Kaçınma**: Ajan, kırmızı tuzaklara (poison traps) asla basmaz [cite: 2, 8].
-- **Arama Algoritmaları**: BFS, DFS, Greedy ve A* karşılaştırmalı olarak sunulur [cite: 3, 27].
-- **Kısıtlar**: Hamle sınırı (Move limit) mekaniği mevcuttur [cite: 5, 23, 35].
+## 🚀 Key Features
+* **Intelligent Pathfinding:** The agent is programmed to strictly avoid red "poison traps" while searching for the optimal path.
+* **Search Algorithms:** Includes comparative visualizations of BFS, DFS, Greedy, and A* algorithms to showcase different AI behaviors.
+* **Operational Constraints:** A "Move Limit" mechanic is implemented to challenge and measure the efficiency of each search strategy.
+* **Modular Architecture:** The codebase is strictly organized within a src directory to maintain a clean and professional project structure.
 
-## 💻 Oynatma Talimatları
-Python 3 ve Pygame yüklü olmalıdır.
+## 💻 Installation & Usage
+Ensure you have Python 3 and the Pygame library installed on your system.
 
-```bash
-git clone https://github.com/yuksel17/maze-game.git
-cd maze-game
-python3 src/main.py
-```
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yuksel17/maze-game.git
+   cd maze-game
+   ```
 
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Simulation**
+   ```bash
+   python3 src/main.py
+   ```

@@ -23,7 +23,7 @@ class Node:
         return self.path_cost < node.path_cost
 
 def astar_search(problem):
-    """A* Search: f(n) = g(n) + h(n) formülünü uygular."""
+    """A* Search: Applies the formula f(n) = g(n) + h(n)."""
     node = Node(problem.initial)
     frontier = []
     # (f_value, node)
@@ -87,3 +87,4 @@ def greedy_search(problem):
             if child.state not in explored:
                 heapq.heappush(frontier, (problem.h(child), child))
     return None
+
